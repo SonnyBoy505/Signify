@@ -1,0 +1,75 @@
+body, html 
+{
+    height: 100%;
+}
+main 
+{
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1 
+{
+    margin: 0.1em;
+}
+a
+{
+    text-decoration: none;
+    color:rgb(193, 67, 88);
+}
+a:hover 
+{
+    color: rgb(156, 33, 53);
+}
+footer 
+{
+    position: fixed;
+    bottom: 0;
+    padding: 1.5em;
+}
+form 
+{
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:1em;
+    background-color: rgb(179, 200, 144);
+    width: 60%;
+    box-shadow: 0 0 5px grey;
+    border-radius: 2em;
+}
+form:hover 
+{
+    box-shadow: 0 0 10px grey;
+}
+section
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap:1em;
+}
+input 
+{
+    border: 2px solid transparent;
+    text-align: center;
+    border-radius: 2em;
+    width: 80%;
+    height: 3em;
+}
+input:hover 
+{
+    border: 2px solid rgb(179, 200, 144);
+}
+input[type="submit"]
+{
+    background-color: black;
+    color:white;
+}
+h3, h4 
+{
+    margin: 0;
+}

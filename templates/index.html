@@ -1,0 +1,96 @@
+{% extends "layout.html" %}
+{% block style %} 
+<link rel="stylesheet" href="../static/index.css">
+{% endblock %}
+{% block content %}
+<main>
+    <h1>
+        Signify
+    </h1>
+    <h2>
+        Donde la comunicación fluye sin importar el lenguaje. Convierte tus señas en palabras y comparte tu mensaje con el mundo.
+    </h2>
+    <a href="/register" target="_blank">
+        <button>
+            ¡Registrate es gratis!
+        </button>
+    </a>
+</main>
+<section id="section1">
+    <h3>
+        Con nuestra página de traducción de lenguaje de señas a texto plano, la comunicación se convierte en una experiencia fluida y sin límites. Convierte el lenguaje de los gestos en un mensaje claro y conciso, y haz que tus ideas lleguen más lejos que nunca.
+    </h3>
+    <div class="cards">
+        <div class="caracteristicas">
+            <img src="../static/translation.png" alt="">
+            <div class="info">
+                <h3>Traduccion en tiempo real</h3>
+                <h4>
+                    La aplicación permitirá a los usuarios traducir de lengua de señas a texto en tiempo real a partir de un video en vivo, para que puedan comunicarse con personas sordas o con dificultades auditivas.
+                </h4>
+            </div>
+        </div>
+        <div class="caracteristicas">
+            <img src="../static/manito.png" alt="">
+            <div class="info">
+                <h3>Reconocimiento de gestos</h3>
+                <h4>
+                    La aplicación tendrá un sistema de reconocimiento de gestos que permitirá detectar y traducir los signos del lenguaje de señas a texto en tiempo real.
+                </h4>
+            </div>
+        </div>
+        <div class="caracteristicas">
+            <img src="../static/chat.png" alt="">
+            <div class="info">
+                <h3>Sala de chat</h3>
+                <h4>
+                    Los usuarios podrán unirse a una sala de chat donde podrán ver la traducción de los gestos en tiempo real y comunicarse con otras personas que también estén conectadas a la sala.
+                </h4>
+            </div>
+        </div>
+        <div class="caracteristicas">
+            <img src="../static/devices.png" alt="">
+            <div class="info">
+                <h3>Compatibilidad con diferentes dispositivos</h3>
+                <h4>
+                    La aplicación será compatible con diferentes dispositivos, como smartphones, tablets y computadoras, para que los usuarios puedan acceder a ella desde cualquier lugar y en cualquier momento.
+                </h4>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="section2">
+    <h2>¿Por qué escoger a Signify?</h2>
+    <h3>
+        Signify ofrece una experiencia de usuario intuitiva y personalizable que se adapta a las necesidades de cada individuo. 
+         Somos la opción ideal para aquellos que buscan una solución efectiva y accesible para superar las barreras de comunicación con personas con discapacidad auditiva. Comparado con otros grupos, Signify ofrece una plataforma completa y fácil de usar que no solo traduce los gestos, sino que también fomenta la inclusión y la interacción social en tiempo real.
+    </h3>
+    <h2>¿Qué dicen nuestros usuarios?</h2>
+    <section class="reviews">
+        <div class="review" id="john">
+            <h3>John Doe</h3>
+            <p>
+                "Signify es una aplicación muy útil y fácil de usar para comunicarse con personas con discapacidad auditiva. Me encanta la función de traducción en tiempo real y la sala de chat en vivo."
+            </p>
+        </div>
+        <div class="review" id="isaac">
+            <h3>Isaac Mombacho</h3>
+            <p>
+                "Gracias a Signify, puedo finalmente comunicarme con mi hermano sordo de manera efectiva. Es una aplicación que cambia vidas."
+            </p>
+        </div>
+        <div class="review" id="juan">
+            <h3>Juan Martinez</h3>
+            <p>
+                "Signify me ha permitido conectarme con personas de todo el mundo y expandir mi círculo social. La aplicación es muy intuitiva y ofrece una experiencia de usuario agradable."
+            </p>
+        </div>
+        <div class="review" id="martha">
+            <h3>Martha Morena</h3>
+            <p>
+                "Como profesor, Signify ha sido una herramienta invaluable para comunicarme con mis estudiantes con discapacidad auditiva. La aplicación es confiable y fácil de usar."
+            </p>
+        </div>
+    </section>
+</section>
+{% endblock %}

@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+{% block style %}
+<link rel="stylesheet" href="../static/login.css">
+{% endblock %}
+{% block content %}
+<main>
+    <form action="" method="get">
+        <h1>Inicia sesión</h1>
+        <h3>¿No tienes una cuenta todavía?</h3>
+        <a href="/register">
+            <h4>Regístrate</h4>
+        </a>
+        <input type="text" placeholder="Ingrese su nombre de usuario">
+        <input type="password" name="password" id="password" placeholder="Ingrese su contraseña">
+        <input type="submit" value="Enviar">
+    </form>
+</main>
+{% endblock %}

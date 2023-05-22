@@ -1,0 +1,55 @@
+body,html 
+{
+    height: 100%;  
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+nav 
+{
+    
+    box-shadow: 0 0 2px black;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1em;
+    display: flex;
+    gap: 1em;
+    background-color: rgb(96, 153, 102);
+}
+nav h4
+{
+    color: white;
+    margin: 0;
+}
+nav a 
+{
+    cursor: pointer;
+    text-decoration: none;
+}
+nav h4:hover 
+{
+    color: black;
+}
+#john, #martha 
+{
+    background-color: rgb(227, 242, 193);
+}
+#juan, #isaac 
+{
+    background-color: rgb(179, 201, 156);
+}
+footer 
+{
+    
+    width: 100%;
+    color: white;
+    box-sizing: border-box;
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
+    text-align: center;
+    background-color: rgb(96, 153, 102);
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: space-around;
+}

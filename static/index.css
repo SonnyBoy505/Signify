@@ -1,0 +1,129 @@
+main 
+{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    padding-bottom: 0.5em;
+    border-bottom: 0.5px solid green;
+}
+
+main h2 
+{
+    line-height: 2em;
+}
+main h2,h1 
+{
+    color: rgb(64, 81, 59);
+}
+section 
+{
+    padding: 1em;
+}
+section h3 
+{
+    line-height: 2em;
+    font-weight: 100;
+}
+.cards 
+{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+.caracteristicas 
+{
+    box-shadow: 0 0 5px grey;
+    border-radius: 1em;
+    width:25%;
+    cursor: pointer;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr;
+    
+}
+.caracteristicas img 
+{
+    padding-top: 1em;
+    width: 40%;
+    justify-self: center;
+    
+}
+.caracteristicas:hover 
+{
+    box-shadow: 0 0 10px black;
+}
+.info 
+{
+    margin-top: 2.5em;
+    line-height: 2em;
+    padding: 1em;
+    transition: background-color 0.2s ease-in-out;
+}
+.info:hover 
+{
+    background-color: rgb(96, 153, 102);
+    color:white;
+}
+.info h3 
+{
+    text-align: center;
+}
+button 
+{
+    font-size: 1.5rem;
+    transition: background-color 0.2s ease-in-out;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    height: 3em;
+    border-radius: 1em;
+    border: 1px solid transparent;
+    background-color: rgb(157, 192, 139);
+}
+button:hover 
+{
+    color: white;
+    background-color:rgb(96, 153, 102);
+}
+#section1 
+{
+    border-bottom: 0.5px solid green;
+}
+.reviews 
+{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    gap: 1em;
+}
+.review 
+{
+    box-shadow: 0 0 5px grey;
+    box-sizing: border-box;
+    padding: 1em;
+    background-color: pink;
+    border-radius: 1em;
+    cursor: pointer;
+}
+.review:hover 
+{
+    box-shadow: 0 0 10px black;
+}
+.review h3 
+{
+    font-weight: bold;
+}
+@media (max-width:700px)
+{
+    .cards 
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+    .caracteristicas
+    {
+        width: 80%;
+    }
+}

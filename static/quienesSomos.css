@@ -1,0 +1,76 @@
+main
+{
+    box-sizing: border-box;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:1em;
+}
+h1 
+{
+    margin: 0.1em;
+}
+footer 
+{
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    font-size: 0.8rem;
+}
+.equipo
+{
+    display: flex;
+    gap: 1em;
+}
+
+section 
+{
+    cursor: pointer;
+    border-radius: 1em;
+    box-shadow: 0 0 4px green;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(201, 219, 178);
+}
+section:hover 
+{
+    box-shadow: 0 0 7px green;
+}
+section img 
+{
+    width:5em;
+    height: 5em;
+}
+.contacto 
+{
+    font-weight: bold;
+    width: 50%;
+    height: 3em;
+    border: 1px solid black;
+    background-color: black;
+    color:white;
+    border-radius: 2em;
+    transition: background-color 0.2s ease-in-out;
+}
+.contacto:hover
+{
+    background-color: white;
+    color:black;
+}
+@media(max-width:700px)
+{
+    .equipo 
+    {
+        flex-direction: column;
+    }
+    footer 
+    {
+        position: static;
+    }
+}
